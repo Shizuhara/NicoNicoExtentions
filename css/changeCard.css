@@ -1,0 +1,12 @@
+/*
+// ランキングのカードのデザイン変更.
+*/
+
+.Card-main {
+    background-color: #fdeff2 !important;
+    color: #252522 !important;
+}
+.Card.NicoadCard.NicoadItem.NicoadItem_gold.Card_outlined.Card_withAction {
+    background-color: #fdeff2 !important;
+    color: #252522 !important;
+}
