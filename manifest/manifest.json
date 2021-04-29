@@ -1,0 +1,49 @@
+
+{   
+    "manifest_version": 2,
+    "name": "begginers niconico Extentions",
+    "version": "1.1.4",
+    "description": "Build an Extension!",
+    "permissions": ["activeTab","declarativeContent", "storage"],
+    "icons": {
+        "32": "images/get_started32.png",
+        "48": "images/get_started48.png"
+    },
+
+    "content_scripts":
+    [
+        {
+            "matches": ["https://www.nicovideo.jp/*"],
+            "js": ["js/liCounter.js"],
+            "css": ["css/navButtomStyle.css", "css/headerCharactorChange.css"],
+            "persistent": false
+                // persistent ...永続的に動くかどうか, false で通信する時にのみ動くようにする.
+        },
+        {
+            "matches": ["https://www.nicovideo.jp/ranking*"],
+            "css": ["css/changeCard.css"],
+            "persistent": false
+        },
+        {
+            "matches": ["https://www.nicovideo.jp/watch/*"],
+            "js": ["js/comentContainerChangeNicoru.js"],
+            "css": ["css/nonPremiumLink.css", "css/comentContainerChange.css"],
+            "persistent": false
+        }
+    ]
+    // // 右上の管理画面
+    // "page_action": {
+    //     // アイコンをクリックした時 popup.html の
+    //     "default_popup": "popup.html",
+    //     // アイコンにマスカーソルをかざすと出力. 
+    //     "default_title": "Ext title",
+    //     // 実際に右上に固定されるアイコン. 
+    //     "default_icon": {
+            
+    //     }
+    // },
+    // // 管理画面でのアイコン. 
+
+    // "options_page":"option.html"
+
+}
