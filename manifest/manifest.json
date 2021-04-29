@@ -17,7 +17,6 @@
             "js": ["js/liCounter.js"],
             "css": ["css/navButtomStyle.css", "css/headerCharactorChange.css"],
             "persistent": false
-                // persistent ...永続的に動くかどうか, false で通信する時にのみ動くようにする.
         },
         {
             "matches": ["https://www.nicovideo.jp/ranking*"],
@@ -31,19 +30,4 @@
             "persistent": false
         }
     ]
-    // // 右上の管理画面
-    // "page_action": {
-    //     // アイコンをクリックした時 popup.html の
-    //     "default_popup": "popup.html",
-    //     // アイコンにマスカーソルをかざすと出力. 
-    //     "default_title": "Ext title",
-    //     // 実際に右上に固定されるアイコン. 
-    //     "default_icon": {
-            
-    //     }
-    // },
-    // // 管理画面でのアイコン. 
-
-    // "options_page":"option.html"
-
 }
