@@ -20,7 +20,7 @@
         },
         {
             "matches": ["https://www.nicovideo.jp/ranking*"],
-            "css": ["css/changeCard.css"],
+            "css": ["https://github.com/Shizuhara/NicoNicoExtentions/blob/master/css/changeCard.css"],
             "persistent": false
         },
         {
