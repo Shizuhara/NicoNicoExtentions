@@ -1,0 +1,18 @@
+/*
+// 一般会員向けの動画内のプレミアム広告表示を消す. 
+*/
+
+/*シークバーに出るプレミアム広告*/
+.SeekBarStoryboardPremiumLink-content{
+    display: none !important ;
+}
+
+/*途中再生時に出るプレミア広告*/
+.PreVideoStartPremiumLinkContainer{
+    display: none !important ;
+}
+
+/*エコノミー再生時に出るプレミア広告*/
+.PreVideoStartPremiumLinkOnEconomyTimeContainer{
+    display: none !important ;
+}
