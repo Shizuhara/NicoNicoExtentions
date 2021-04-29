@@ -15,7 +15,7 @@
         {
             "matches": ["https://www.nicovideo.jp/*"],
             "js": ["js/liCounter.js"],
-            "css": ["css/navButtomStyle.css", "css/headerCharactorChange.css"],
+            "css": ["https://github.com/Shizuhara/NicoNicoExtentions/blob/master/css/headerCharactorChange.css"],
             "persistent": false
         },
         {
